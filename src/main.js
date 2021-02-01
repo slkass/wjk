@@ -196,7 +196,7 @@ window.boot = function () {
   if (false) {
     BK.Script.loadlib();
   } else {
-    var bundledScript = 'https://cdn.jsdelivr.net/gh/slkass/wjk/src/project.min.js?ran=' + Math.random().toString("32").substring(2);
+    var bundledScript = 'https://cdn.jsdelivr.net/gh/slkass/wjk/src/project.js?ran=' + Math.random().toString("32").substring(2);
     if (jsList) {
       jsList = jsList.map(function (x) {
         return 'https://cdn.jsdelivr.net/gh/slkass/wjk/src/' + x;
